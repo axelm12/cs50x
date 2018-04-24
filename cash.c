@@ -1,7 +1,6 @@
 #include <cs50.h>
 #include <stdio.h>
 #include <math.h>
-//#define QUARTER 25
 
 //Program task
 //asks the user how much change is owed
@@ -55,7 +54,7 @@ int main(void)
         {
             changeInt -= (1);
         }
-            = coins += i;
+        coins += i;
     }
 
     printf("%i\n", coins);
