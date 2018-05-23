@@ -27,8 +27,7 @@ int main(int argc, string argv[])
     int key = atoi(argv[1]);
     //prompt for plaintext
     string p = get_string("plaintext: ");
-    //printf("plaintext: %s", p);
-    //for each character in the plaintext string
+    //for loop for each character in the plaintext string
     printf("ciphertext: ");
     for (int i = 0, n = strlen(p); i < n; i++)
     {
