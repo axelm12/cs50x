@@ -14,9 +14,7 @@ for each character in the plaintext string
         shift plaintext charactesr by key
 print ciphertext
 */
-//ascii to alpha is just +65 for upper and +96 for lower case
-//to get apha from ascii just subtract 65
-//printf("%c", toupper(s[i])); this makes it print the string in upper case
+
 int main(int argc, string argv[])
 {
     if (argc != 2)
