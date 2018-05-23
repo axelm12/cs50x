@@ -23,7 +23,6 @@ int main(int argc, string argv[])
         return 1;
     }
     //Get key from command line argument
-    //string k = argv[1];
     //turn key into integer
     int key = atoi(argv[1]);
     //prompt for plaintext
